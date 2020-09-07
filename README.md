@@ -1,12 +1,6 @@
 # Docusign FSC Hackathon Submission
 
-## App 3 - Greeblocks
-
-## Blockchain Microservice
-
-## Technical architecture
-
-![Technical architecture diagram](src/files/TechnicalArchitecture.png)
+## App 3 - Greeblocks Blockchain Microservice
 
 ## Overview
 
