@@ -34,26 +34,6 @@ POST api/blockchain/certificates
 
 We have made it optional for the backend server to connect to the blockchain microservice. In the backend server, the config setting is the `enable_blockchain` field in `src/config/config.ts`. After the chaincode is deployed to a managed blockchain service, this option can be turned on, and the microservice's server can be started. When this is enabled, the backend server can call the `POST api/blockchain/certificates` API when updating the certificate's status to "issued" in Microsoft Dynamics. This creates a certificate in the immutable ledger.
 
-## Greater good
-
-We believe our app and architecture can be easily customized and adopted by other non-profit organizations, especially ones that contribute to the conservation and restoration of forest, land, water, and air.
-
-![Other non-profits](src/files/Non_profits.png)
-
-## What's next for this project
-
-We are proud to have gotten this far in our spare time in 2 months. However, there are a few improvements to be made if the FSC would like to use it in production.
-
-- On the frontend, implement a more seamless integration with google drive which allows users to drag and drop files, and directly add evaluations in the form of annotations in the file view.
-- Since there are multiple actors in this certification process, use of notifications and email alerts would help make the process more efficient.
-- Deploy the smart contract chaincode to a managed service.
-- Add additional features to the smart contract to allow more companies in the supply chain to participate.
-- Enhance authentication and restrict access to blockchain microservice APIs.
-
-Thank you Docusign and FSC for the opportunity to learn, give back, and compete in this hackathon.
-
-:deciduous_tree::deciduous_tree::deciduous_tree::deciduous_tree::deciduous_tree:
-
 ## Try it out
 
 To run a local network, you can install this [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) and follow the guide there to set up a local blockchain environment, then deploy the `chaincode` directory to that network.
