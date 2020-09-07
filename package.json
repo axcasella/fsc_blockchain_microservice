@@ -4,8 +4,7 @@
   "description": "Backend server & chaincode for Docusign FSC hackathon",
   "main": "server.ts",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon ./src/server.ts"
   },
   "author": "Alex Casella",
   "license": "MIT",

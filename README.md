@@ -36,11 +36,11 @@ We have made it optional for the backend server to connect to the blockchain mic
 
 ## Try it out
 
-To start up the microservice server, run the following commands:
+To start up the microservice server in local machine, run the following commands:
 
 ```
 npm install
-npm run start
+npm run server
 ```
 
 The microserver APIs will not work without a blockchain network.
@@ -49,9 +49,9 @@ To run a local network, you can install this [VSCode Extension](https://marketpl
 
 To run a network in the cloud, you can use one of the following options:
 
-[IBM Blockchain Platform](https://www.ibm.com/blockchain/platform)
-
 [Amazon Managed Blockchain](https://aws.amazon.com/managed-blockchain/)
+
+[IBM Blockchain Platform](https://www.ibm.com/blockchain/platform)
 
 ## Links to the rest of the app
 
